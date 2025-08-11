@@ -14,7 +14,7 @@ export default HomePage;
 
 export async function getStaticProps() {
   const uri =
-    'mongodb+srv://truongdlfx22577:xTIeffAM3olWtmm6@cluster0.nyndcmn.mongodb.net/meetups?retryWrites=true&w=majority';
+    'mongodb+srv://lamtruong:SkOAXtwWaaEXEmg9@cluster0.nyndcmn.mongodb.net/meetups?retryWrites=true&w=majority&appName=Cluster0';
 
   const client = await MongoClient.connect(uri);
   const db = client.db();
